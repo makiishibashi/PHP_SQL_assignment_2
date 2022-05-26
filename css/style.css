@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "Open sans", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+.title_section {
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	background-color: rgb(154, 143, 135);
+}
+.title_text{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color:#fffafa
+}
+
+.gudetama{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title_first{
+	font-size: 48px;
+}
+
+.title_second{
+	font-size: 36px;
+}
+
+.form-parts {
+	width: 328px;
+	height: 36px;
+	font-size: 24px;
+	border: solid 1px #bfbfbf;
+	margin: 10px;
+}
+
+.submit_button {
+	border: solid 1px #bfbfbf;
+	margin-top: 10px;
+	align-content: center;
+}
+
+footer{
+	align-content: center;
+}
